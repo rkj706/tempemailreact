@@ -1,0 +1,34 @@
+.links{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    margin-bottom: 4px;
+    list-style: none;
+    line-height: 40px;
+    margin-right: 2rem !important;
+}
+
+.copyright-text
+{
+    text-align: right;;
+}
+
+a{
+    color: white !important;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media (max-width:767px)
+{
+  .links li
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

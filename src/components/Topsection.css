@@ -1,0 +1,21 @@
+.topbar{
+    width: 100%;
+    padding: 25px 42px 85.4px 41.5px;
+    /* background: -webkit-linear-gradient(246deg, #ffffff 129%, #dcdcff -35%); */
+}
+
+#intro{
+    padding: 30px 80px !important;
+    font-size: 19px;
+    margin-bottom: 10px !important;
+  }
+  
+#intro .col-md-12{
+    padding: 30px 30px;
+    margin-top: 4%;
+}
+
+#intro .col-md-12 img{
+    border-radius: 15%;
+    height: 275px;
+}

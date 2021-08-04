@@ -1,0 +1,64 @@
+#intro{
+    padding: 0px 80px !important;
+    font-size: 19px;
+    margin-bottom: 10px !important;
+  }
+  
+  #intro .col-md-12{
+    padding: 30px 30px;
+    margin-top: 4%;
+  }
+
+  #intro .col-md-12 img{
+    border-radius: 15%;
+    height: 275px;
+  }
+
+.heading{ 
+  width: 100%;
+  margin: 0 auto 5px 0;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #2979ff;
+}
+
+.text
+{
+    width: 100%;
+    margin: 5px 0 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: 0.52px;
+    text-align: left;
+    color: #808080;
+  }
+  
+  #services{
+    background-color: #fff;
+    padding: 50px 0;
+    margin: 3% 0 0 0;
+  }
+  
+  #services .col-md-12{
+    padding: 20px 30px;
+  }
+
+  #services .col-md-12 img{
+    border-radius: 15%;
+    height: 300px;
+  }
+
+  span{
+      font-weight: bold !important;
+  }
+  
