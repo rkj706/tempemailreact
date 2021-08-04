@@ -2,7 +2,6 @@
     background-color: #fff;
     padding: 30px !important;
     text-align: left;
-    width: 420px;
 }
 
 .form h4{
@@ -27,9 +26,9 @@
 
 .form button{
     display:block;
-  height: 40px;
-  width: 120px;
-  border-radius: 20px;
+  height: 48px;
+  width: 144px;
+  border-radius: 24px;
   background-color: #2979ff;
   margin: 15px 13px !important;
   border:none;
