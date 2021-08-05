@@ -49,7 +49,6 @@ function Bottomsection() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }

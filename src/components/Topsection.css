@@ -1,7 +1,7 @@
 .topbar{
     width: 100%;
     padding: 25px 42px;
-    /* background: -webkit-linear-gradient(246deg, #ffffff 129%, #dcdcff -35%); */
+    background-image: linear-gradient(246deg, #fff 129%, #dcdcff 35%);
 }
 
 #intro{
@@ -18,4 +18,37 @@
 #intro .col-md-12 img{
     border-radius: 15%;
     height: 275px;
+}
+
+.table-div{
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02);
+  background-color: #fff;
+  border-radius: 18px !important;
+    overflow: hidden;
+    border: 1px #000 solid;
+}
+
+.table-head
+{
+    background-color: #737c97 !important;   
+     
+}
+
+.table-div tbody { 
+    display:block; 
+    height:328px; 
+    overflow-y:scroll; 
+    
+}
+
+
+.table-div thead, table tbody tr {
+     display:table; 
+     width:100%; 
+     table-layout:fixed; 
+}
+
+.table-div p{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }

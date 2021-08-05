@@ -7,7 +7,7 @@ import EmailForm from './EmailForm'
 function TopSection() {
     return (
         <div className="topbar">
-            <NavBar />
+            
             <section id="intro" className="">
                 <div className="container">
                     <div className="row justify-content-md-center">

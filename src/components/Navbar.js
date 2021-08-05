@@ -49,6 +49,19 @@ function NavBar() {
                 kumarraushanrk5@gmail.com
               </NavLink>
             </li>
+
+            <li>
+            <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links btn-outline-info nav-button"
+                onClick={handleClick}
+              >
+                login
+              </NavLink>
+            </li>
+
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
