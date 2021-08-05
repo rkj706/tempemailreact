@@ -31,7 +31,7 @@ export class SuccessForm extends Component {
                 </div> 
 
                 <div className="form-check my-2 font-weight-light">
-                    <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                    <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
                     <label className="form-check-label" for="flexCheckChecked">
                         Save to temp email
                     </label>

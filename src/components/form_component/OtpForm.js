@@ -22,19 +22,19 @@ export class OtpForm extends Component {
                 </button>
                 <h4>Personal email address</h4>
                 <input  
-                    className="text-input"
+                    className="text-input bg-light"
                     type="text" 
                     value={values.personal_email} 
                     readOnly
                 />  
                 <input  
                     className="text-input"
-                    type="text" 
+                    type="password" 
                     placeholder="Enter the OTP" 
                     value={values.otp} 
                     onChange={handleChange('otp')}
                 /> 
-                <button onClick={this.continue}>
+                <button onClick={this.continue} disabled={!values.otp}>
                     VERIFY
                 </button>
 

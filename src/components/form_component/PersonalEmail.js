@@ -24,12 +24,12 @@ export class PersonalEmail extends Component {
                 <h4>Personal email address</h4>
                 <input  
                     className="text-input"
-                    type="text" 
+                    type="email" 
                     placeholder="Enter your email address to verify" 
                     value={values.personal_email} 
                     onChange={handleChange('personal_email')}
                 />  
-                <button onClick={this.continue}>
+                <button className="btn btn-primary" onClick={this.continue} disabled={!values.personal_email}>
                     GET OTP
                 </button>
 
